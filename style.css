@@ -45,3 +45,11 @@
     font-size: 10px;
   }
 }
+
+@media (max-width: 246px) {
+  .child1,
+  .child2,
+  .child3 {
+    font-size: 8px;
+  }
+}
