@@ -46,17 +46,6 @@ This project helped me understand:
 
 ---
 
-## 📈 Responsive Breakpoints
-
-| Screen Width        | Layout Behavior                            |
-| ------------------- | ------------------------------------------ |
-| Greater than 1746px | Horizontal Flex Layout                     |
-| 1746px or less      | Vertical Layout (`flex-direction: column`) |
-| 603px or less       | Font size changes to **12px**              |
-| 349px or less       | Font size changes to **10px**              |
-
----
-
 ## 🔗 Connect With Me
 
 ### 💼 LinkedIn
