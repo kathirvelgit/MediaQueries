@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  border: 2px solid black;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+.child1 {
+  border: 2px solid black;
+  height: 100px;
+}
+.child2 {
+  border: 2px solid black;
+  height: 100px;
+}
+.child3 {
+  border: 2px solid black;
+  height: 100px;
+}
+
+@media (max-width: 1746px) {
+  .parent {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 603px) {
+  .child1,
+  .child2,
+  .child3 {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 349px) {
+  .child1,
+  .child2,
+  .child3 {
+    font-size: 10px;
+  }
+}
